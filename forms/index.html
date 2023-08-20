@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        .form{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 12.5%;
+            
+        }
+        table{
+            border: 1px solid black;
+            border-radius: 50px;
+            height: 400px;
+            padding: 50px;
+            background-color: brown;
+            box-shadow: 5px 5px 5px 5px rgb(107, 88, 88);
+            color: beige;
+        }
+       .table2{
+        background-color: rgb(166, 53, 33);
+        border-radius: 100px;
+       }
+        
+        input[type="submit"]{
+            background-color: aqua;
+            width: 90px;
+        }
+    </style>
+</head>
+<body style="background-color: burlywood;">
+    <form  action="login.html" target="_blank" >
+        <h1 style="text-align: center; color: rgb(112, 86, 28);">REGISTRATION</h1>
+        <div class="form">
+        <table >
+            <tr>
+            <td class="table2"><label for="Name">First Name:</label></td>
+            <td class="table"><input type="text" name="Name" required></td>
+            <td class="table2"><label for="Name">Middle Name:</label></td>
+            <td class="table"><input type="text" name="Name"></td>
+            <td class="table2"><label for="Name">Last Name:</label></td>
+            <td class="table"><input type="text" name="Name"><br>
+            </tr>
+            <tr>
+            <td class="table2"><label for="DOB">Date of Birth:</label></td>
+            <td class="table">    <input type="date" name="DOB" id="" required><br></td>
+            </tr>
+            <tr>
+            <td class="table2"><label for="gender">Gender:</label></td>
+            <td class="table">     <input TYPE="RADIO" name="gender" checked >Male</td>
+            <td class="table">    <input TYPE="RADIO" name="gender">Female <br></td>
+            <td class="table">    <input TYPE="RADIO" name="gender">Others <br></td>
+            </tr>
+            <tr>
+            <td class="table2"><label for="address">Address:</label></td>
+            <td class="table1"colspan="6">    <input type="text" name="address" id=""><br></td>
+            </tr>
+            <tr>
+            <td class="table2"><label for="user">EMAIL:</label></td>
+            <td class="table1"colspan="6">    <input type="email" name="user" required><br></td>
+            </tr>
+            <tr>
+            <td class="table2"><label for="pass">password:</label></td>
+            <td class="table1"colspan="6">    <input type="password" name="password" required><br></td>
+            </tr>
+            <tr>
+            <td class="table2"><label for="repass">Re-enter password:</label></td>
+            <td class="table1" colspan="6">    <input type="password" name="repass" required><br></td>
+            </tr>
+            <tr>
+            <td class="submit" colspan="6" style="text-align: center;"><input type="submit" value="LOGIN" ></td>
+        </tr>
+         </table>
+        </div>
+    </form>
+</body>
+</html>
